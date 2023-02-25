@@ -4,7 +4,7 @@ import { Tag } from 'primereact/tag';
 import { Button } from 'primereact/button';
 
 const GridProdItem = (props) => {
-    const {product}=props;
+    const {product,handelClickOnProdCart}=props;
     
     return (
         <div className="col-12 sm:col-6 lg:col-12 xl:col-4 p-2">
@@ -25,7 +25,8 @@ const GridProdItem = (props) => {
                 </div>
                 <div className="flex align-items-center justify-content-between">
                     <span className="text-2xl font-semibold">${product.price}</span>
-                    <Button icon="pi pi-shopping-cart" className="p-button-rounded" disabled={product.isSold}></Button>
+                    <Button icon="pi pi-shopping-cart" className="p-button-rounded" disabled={product.isSold}
+                    onClick={()=>{handelClickOnProdCart(product)}}></Button>
                 </div>
             </div>
         </div>

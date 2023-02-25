@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { getProduct } from '../../Redux/actions';
+import { getProduct,getUsers,getInventory } from '../../Redux/actions';
 import { useDispatch} from 'react-redux';
 import List from './List';
 import './product.css';
@@ -9,7 +9,9 @@ export default function Product() {
 
 
     useEffect(() => {
+        dispatch(getUsers());
         dispatch(getProduct(0));
+        dispatch(getInventory());
         // eslint-disable-next-line
     }, []);
     return (<>

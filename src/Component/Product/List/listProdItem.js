@@ -4,7 +4,7 @@ import { Tag } from 'primereact/tag';
 import { Button } from 'primereact/button';
 
 const ListProdItem = (props) => {
-    const {product}=props;
+    const {product,handelClickOnProdCart}=props;
 
     return (
         <div className="col-12">
@@ -25,7 +25,7 @@ const ListProdItem = (props) => {
                     </div>
                     <div className="flex sm:flex-column align-items-center sm:align-items-end gap-3 sm:gap-2">
                         <span className="text-2xl font-semibold">${product.price}</span>
-                        <Button icon="pi pi-shopping-cart" className="p-button-rounded" disabled={product.isSold}></Button>
+                        <Button icon="pi pi-shopping-cart" className="p-button-rounded" disabled={product.isSold} onClick={()=>{handelClickOnProdCart(product)}}></Button>
                     </div>
                 </div>
             </div>

@@ -28,7 +28,7 @@ function Product() {
         userObj.orders.push(prod);
         if (user?.orders?.length > 0) {
             const prodlength = user.orders.filter(x => x.id === prodObj.id).length;
-            if (prodlength > 2) {
+            if (prodlength > prod?.limit) {
                 alert("Only user can purchase upto 2 qty per product");
             } else {
                 dispatch(updateUserById(user.id, userObj));

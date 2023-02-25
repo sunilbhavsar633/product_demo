@@ -10,7 +10,8 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
       "isSold": false,
-      "rating": 3
+      "rating": 3,
+      "limit":4
     },
     {
       "id": 2,
@@ -22,7 +23,8 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
       "isSold": false,
-      "rating": 4
+      "rating": 4,
+      "limit":2
     },
     {
       "id": 3,
@@ -34,10 +36,11 @@
       "brand": "OnePlus",
       "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
       "isSold": false,
-      "rating": 5
+      "rating": 5,
+      "limit":3
     },
     {
-      "id": 1,
+      "id": 4,
       "product_code": "001",
       "name": "Samsung A50",
       "category": "Mobile",
@@ -46,10 +49,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
       "isSold": false,
-      "rating": 3
+      "rating": 3,
+      "limit":1
     },
     {
-      "id": 2,
+      "id": 5,
       "product_code": "002",
       "name": "Samsung S22",
       "category": "Mobile",
@@ -58,10 +62,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
       "isSold": false,
-      "rating": 4
+      "rating": 4,
+      "limit":5
     },
     {
-      "id": 3,
+      "id": 6,
       "name": "OnePlus Nord2",
       "product_code": "003",
       "category": "Mobile",
@@ -70,10 +75,11 @@
       "brand": "OnePlus",
       "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
       "isSold": false,
-      "rating": 5
+      "rating": 5,
+      "limit":4
     },
     {
-      "id": 1,
+      "id": 7,
       "product_code": "001",
       "name": "Samsung A50",
       "category": "Mobile",
@@ -82,10 +88,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
       "isSold": false,
-      "rating": 3
+      "rating": 3,
+      "limit":4
     },
     {
-      "id": 2,
+      "id": 8,
       "product_code": "002",
       "name": "Samsung S22",
       "category": "Mobile",
@@ -94,10 +101,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
       "isSold": false,
-      "rating": 4
+      "rating": 4,
+      "limit":6
     },
     {
-      "id": 3,
+      "id": 9,
       "name": "OnePlus Nord2",
       "product_code": "003",
       "category": "Mobile",
@@ -106,10 +114,11 @@
       "brand": "OnePlus",
       "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
       "isSold": false,
-      "rating": 5
+      "rating": 5,
+      "limit":4
     },
     {
-      "id": 1,
+      "id": 10,
       "product_code": "001",
       "name": "Samsung A50",
       "category": "Mobile",
@@ -118,10 +127,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
       "isSold": false,
-      "rating": 3
+      "rating": 3,
+      "limit":4
     },
     {
-      "id": 2,
+      "id": 11,
       "product_code": "002",
       "name": "Samsung S22",
       "category": "Mobile",
@@ -130,10 +140,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
       "isSold": false,
-      "rating": 4
+      "rating": 4,
+      "limit":4
     },
     {
-      "id": 3,
+      "id": 12,
       "name": "OnePlus Nord2",
       "product_code": "003",
       "category": "Mobile",
@@ -142,10 +153,11 @@
       "brand": "OnePlus",
       "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
       "isSold": false,
-      "rating": 5
+      "rating": 5,
+      "limit":4
     },
     {
-      "id": 1,
+      "id": 13,
       "product_code": "001",
       "name": "Samsung A50",
       "category": "Mobile",
@@ -154,10 +166,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
       "isSold": false,
-      "rating": 3
+      "rating": 3,
+      "limit":4
     },
     {
-      "id": 2,
+      "id": 14,
       "product_code": "002",
       "name": "Samsung S22",
       "category": "Mobile",
@@ -166,10 +179,11 @@
       "brand": "Samsung",
       "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
       "isSold": false,
-      "rating": 4
+      "rating": 4,
+      "limit":4
     },
     {
-      "id": 3,
+      "id": 15,
       "name": "OnePlus Nord2",
       "product_code": "003",
       "category": "Mobile",
@@ -178,7 +192,8 @@
       "brand": "OnePlus",
       "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
       "isSold": false,
-      "rating": 5
+      "rating": 5,
+      "limit":4
     }
   ],
   "product_inventory": [

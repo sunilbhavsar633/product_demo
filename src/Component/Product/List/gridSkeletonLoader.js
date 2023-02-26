@@ -1,7 +1,7 @@
-import React from "react";
+import React,{memo} from "react";
 import { Skeleton } from 'primereact/skeleton';
 
-export default function GridSkeletonLoader(){
+function GridSkeletonLoader(){
     return (
         <div className="p-grid grid p-nogutter grid-nogutter">{[1,2,3,4,5,6].map((it,key)=>{
             return(<div key={`grid${key}`} className="col-12 sm:col-6 lg:col-12 xl:col-4 p-2">
@@ -24,3 +24,4 @@ export default function GridSkeletonLoader(){
          })}</div>
     );
 }
+export default memo(GridSkeletonLoader);

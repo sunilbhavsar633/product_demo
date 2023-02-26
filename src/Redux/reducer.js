@@ -1,6 +1,6 @@
 import {
     SET_PRODUCT, SET_PRODUCT_DETAIL, SET_LOADING, SET_USERS, SET_USER_BY_ID,
-    SET_INVENTORY
+    SET_INVENTORY, ADD_PROD_TO_COMP
 } from './actionType'
 
 const initialState = {
@@ -9,7 +9,8 @@ const initialState = {
     productDetails: null,
     users: [],
     user: null,
-    prodInventory:[]
+    prodInventory: [],
+    prodComp: []
 }
 
 const reducer = (state = initialState, action) => {
@@ -40,6 +41,11 @@ const reducer = (state = initialState, action) => {
                 ...action.payLoad
             }
         case SET_INVENTORY:
+            return {
+                ...state,
+                ...action.payLoad
+            }
+        case ADD_PROD_TO_COMP:
             return {
                 ...state,
                 ...action.payLoad

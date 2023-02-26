@@ -10,7 +10,7 @@ export default function Product() {
 
     useEffect(() => {
         dispatch(getUsers());
-        dispatch(getProduct(0));
+        dispatch(getProduct(1));
         dispatch(getInventory());
         // eslint-disable-next-line
     }, []);

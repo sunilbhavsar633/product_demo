@@ -1,10 +1,10 @@
-import React from "react";
+import React,{memo} from "react";
 import { Rating } from 'primereact/rating';
 import { Tag } from 'primereact/tag';
 import { Button } from 'primereact/button';
 
 const GridProdItem = (props) => {
-    const {product,handelClickOnProdCart}=props;
+    const {product,handelClickOnProdCart,handelClickOnProdComp}=props;
     
     return (
         <div className="col-12 sm:col-6 lg:col-12 xl:col-4 p-2">
@@ -25,6 +25,7 @@ const GridProdItem = (props) => {
                 </div>
                 <div className="flex align-items-center justify-content-between">
                     <span className="text-2xl font-semibold">${product.price}</span>
+                    <Button className="p-button-rounded" onClick={()=>{handelClickOnProdComp(product)}}>Compare</Button>
                     <Button icon="pi pi-shopping-cart" className="p-button-rounded" disabled={product.isSold}
                     onClick={()=>{handelClickOnProdCart(product)}}></Button>
                 </div>
@@ -32,4 +33,4 @@ const GridProdItem = (props) => {
         </div>
     );
 };
-export default GridProdItem;
+export default memo(GridProdItem);

@@ -1,7 +1,7 @@
-import React from "react";
+import React,{memo} from "react";
 import { Skeleton } from 'primereact/skeleton';
 
-export default function ListSkeletonLoader(){
+function ListSkeletonLoader(){
     return (
         <>{[1,2,3,4,5,6].map((it,key)=>{
             return(<div key={`list${key}`} className="col-12">
@@ -26,3 +26,4 @@ export default function ListSkeletonLoader(){
         })}</>
     );
 }
+export default memo(ListSkeletonLoader);

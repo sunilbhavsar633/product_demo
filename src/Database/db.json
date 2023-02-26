@@ -41,143 +41,143 @@
     },
     {
       "id": 4,
-      "product_code": "001",
-      "name": "Samsung A50",
+      "product_code": "004",
+      "name": "Samsung A51",
       "category": "Mobile",
       "price": "20000",
       "color": "Black",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "img": "https://fastly.picsum.photos/id/48/5000/3333.jpg?hmac=y3_1VDNbhii0vM_FN6wxMlvK27vFefflbUSH06z98so",
       "isSold": false,
       "rating": 3,
       "limit":1
     },
     {
       "id": 5,
-      "product_code": "002",
-      "name": "Samsung S22",
+      "product_code": "005",
+      "name": "Samsung S53",
       "category": "Mobile",
       "price": "60000",
       "color": "White",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
+      "img": "https://fastly.picsum.photos/id/60/1920/1200.jpg?hmac=fAMNjl4E_sG_WNUjdU39Kald5QAHQMh-_-TsIbbeDNI",
       "isSold": false,
       "rating": 4,
       "limit":5
     },
     {
       "id": 6,
-      "name": "OnePlus Nord2",
-      "product_code": "003",
+      "name": "OnePlus Nord3",
+      "product_code": "006",
       "category": "Mobile",
       "price": "30000",
       "color": "Grey",
       "brand": "OnePlus",
-      "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
+      "img": "https://fastly.picsum.photos/id/96/4752/3168.jpg?hmac=KNXudB1q84CHl2opIFEY4ph12da5JD5GzKzH5SeuRVM",
       "isSold": false,
       "rating": 5,
       "limit":4
     },
     {
       "id": 7,
-      "product_code": "001",
-      "name": "Samsung A50",
+      "product_code": "007",
+      "name": "Samsung A21",
       "category": "Mobile",
       "price": "20000",
       "color": "Black",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "img": "https://fastly.picsum.photos/id/119/3264/2176.jpg?hmac=PYRYBOGQhlUm6wS94EkpN8dTIC7-2GniC3pqOt6CpNU",
       "isSold": false,
       "rating": 3,
       "limit":4
     },
     {
       "id": 8,
-      "product_code": "002",
-      "name": "Samsung S22",
+      "product_code": "008",
+      "name": "Samsung S23",
       "category": "Mobile",
       "price": "60000",
       "color": "White",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
+      "img": "https://fastly.picsum.photos/id/160/3200/2119.jpg?hmac=cz68HnnDt3XttIwIFu5ymcvkCp-YbkEBAM-Zgq-4DHE",
       "isSold": false,
       "rating": 4,
       "limit":6
     },
     {
       "id": 9,
-      "name": "OnePlus Nord2",
-      "product_code": "003",
+      "name": "OnePlus 9",
+      "product_code": "009",
       "category": "Mobile",
       "price": "30000",
       "color": "Grey",
       "brand": "OnePlus",
-      "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
+      "img": "https://fastly.picsum.photos/id/175/2896/1944.jpg?hmac=djMSfAvFgWLJ2J3cBulHUAb4yvsQk0d4m4xBJFKzZrs",
       "isSold": false,
       "rating": 5,
       "limit":4
     },
     {
       "id": 10,
-      "product_code": "001",
-      "name": "Samsung A50",
+      "product_code": "010",
+      "name": "Samsung A25",
       "category": "Mobile",
       "price": "20000",
       "color": "Black",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "img": "https://fastly.picsum.photos/id/180/2400/1600.jpg?hmac=Ig-CXcpNdmh51k3kXpNqNqcDYTwXCIaonYiBOnLXBb8",
       "isSold": false,
       "rating": 3,
       "limit":4
     },
     {
       "id": 11,
-      "product_code": "002",
-      "name": "Samsung S22",
+      "product_code": "011",
+      "name": "Samsung S22+ultra",
       "category": "Mobile",
       "price": "60000",
       "color": "White",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
+      "img": "https://fastly.picsum.photos/id/250/4928/3264.jpg?hmac=4oIwzXlpK4KU3wySTnATICCa4H6xwbSGifrxv7GafWU",
       "isSold": false,
       "rating": 4,
       "limit":4
     },
     {
       "id": 12,
-      "name": "OnePlus Nord2",
-      "product_code": "003",
+      "name": "OnePlus Nord4",
+      "product_code": "011",
       "category": "Mobile",
       "price": "30000",
       "color": "Grey",
       "brand": "OnePlus",
-      "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
+      "img": "https://fastly.picsum.photos/id/319/5000/2542.jpg?hmac=icYeEMjMxzLiSh99zhTa7s8rtnSYXjbCtS9nqpVhoEA",
       "isSold": false,
       "rating": 5,
       "limit":4
     },
     {
       "id": 13,
-      "product_code": "001",
-      "name": "Samsung A50",
+      "product_code": "013",
+      "name": "Samsung A20",
       "category": "Mobile",
       "price": "20000",
       "color": "Black",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
+      "img": "https://fastly.picsum.photos/id/357/3888/2592.jpg?hmac=322FsZ93_k9v7NNFeCTlqk_gobPP_1mYJIQwk7GxjMc",
       "isSold": false,
       "rating": 3,
       "limit":4
     },
     {
       "id": 14,
-      "product_code": "002",
-      "name": "Samsung S22",
+      "product_code": "014",
+      "name": "Samsung S22+",
       "category": "Mobile",
       "price": "60000",
       "color": "White",
       "brand": "Samsung",
-      "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
+      "img": "https://fastly.picsum.photos/id/367/4928/3264.jpg?hmac=H-2OwMlcYm0a--Jd2qaZkXgFZFRxYyGrkrYjupP8Sro",
       "isSold": false,
       "rating": 4,
       "limit":4
@@ -217,7 +217,82 @@
       "totalQty": 20,
       "avilableQty": 9,
       "soldQty": 11
+    },
+    {
+      "id": 4,
+      "prod_id": 4,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },{
+      "id": 5,
+      "prod_id": 5,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 6,
+      "prod_id": 6,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 7,
+      "prod_id": 7,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },{
+      "id": 8,
+      "prod_id": 8,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },{
+      "id": 10,
+      "prod_id": 20,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 11,
+      "prod_id": 11,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 12,
+      "prod_id": 12,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 13,
+      "prod_id": 13,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 14,
+      "prod_id": 14,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
+    },
+    {
+      "id": 15,
+      "prod_id": 15,
+      "totalQty": 20,
+      "avilableQty": 9,
+      "soldQty": 11
     }
+    
   ],
   "users": [
     {
@@ -225,30 +300,6 @@
       "name": "Sunil Bhavsar",
       "email": "sunilbhavsar@gmail.com",
       "orders": [
-        {
-          "id": 1,
-          "name": "Samsung A50",
-          "product_code": "001",
-          "category": "Mobile",
-          "price": "20000",
-          "color": "Black",
-          "brand": "Samsung",
-          "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
-          "isSold": false,
-          "rating": 3
-        },
-        {
-          "id": 1,
-          "name": "Samsung A50",
-          "product_code": "001",
-          "category": "Mobile",
-          "price": "20000",
-          "color": "Black",
-          "brand": "Samsung",
-          "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
-          "isSold": false,
-          "rating": 3
-        }
       ],
       "profileImg": ""
     },
@@ -257,42 +308,6 @@
       "name": "Suraj Shah",
       "email": "surajshah@gmail.com",
       "orders": [
-        {
-          "id": 1,
-          "name": "Samsung A50",
-          "product_code": "001",
-          "category": "Mobile",
-          "price": "20000",
-          "color": "Black",
-          "brand": "Samsung",
-          "img": "https://fastly.picsum.photos/id/0/5000/3333.jpg?hmac=_j6ghY5fCfSD6tvtcV74zXivkJSPIfR9B8w34XeQmvU",
-          "isSold": false,
-          "rating": 3
-        },
-        {
-          "id": 2,
-          "product_code": "002",
-          "name": "Samsung S22",
-          "category": "Mobile",
-          "price": "60000",
-          "color": "White",
-          "brand": "Samsung",
-          "img": "https://fastly.picsum.photos/id/2/5000/3333.jpg?hmac=_KDkqQVttXw_nM-RyJfLImIbafFrqLsuGO5YuHqD-qQ",
-          "isSold": false,
-          "rating": 4
-        },
-        {
-          "id": 3,
-          "name": "OnePlus Nord2",
-          "product_code": "003",
-          "category": "Mobile",
-          "price": "30000",
-          "color": "Grey",
-          "brand": "OnePlus",
-          "img": "https://fastly.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
-          "isSold": false,
-          "rating": 5
-        }
       ],
       "profileImg": ""
     }

@@ -1,7 +1,7 @@
 import {GET_PRODUCT,GET_PRODUCT_DETAIL,SET_LOADING,GET_USERS,GET_USER_BY_ID,UPDATE_USER_BY_ID,
-    UPDATE_INVENTORY,UPDATE_PROD_BY_PROD_ID, GET_INVENTORY} from './actionType';
+    UPDATE_INVENTORY,UPDATE_PROD_BY_PROD_ID, GET_INVENTORY,ADD_PROD_TO_COMP} from './actionType';
 export const setLoading =  (isLoading) => {
-    return {type:SET_LOADING,action:{payload:{isLoading}}}
+    return {type:SET_LOADING,payload:{isLoading}}
 }
 
 export const getProduct=(page=0,limit=6,search="")=>{
@@ -34,5 +34,9 @@ export const updateInventory=(id,obj)=>{
 
 export const updateProdByProdId=(prodId,obj)=>{
     return {type:UPDATE_PROD_BY_PROD_ID,prodId,obj};
+}
+
+export const addProdToComp=(prodComp)=>{
+    return {type:ADD_PROD_TO_COMP,payLoad:{prodComp}};
 }
 
